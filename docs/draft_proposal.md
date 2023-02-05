@@ -22,7 +22,8 @@ This dataset was lastly update on November 6th, 2020.
 
 The dataset that I considered has 13 different columns with the number of observations 1190. 
 Below are the list of columns that I have in my dataset with the type of the data:
-<img width="403" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/1b929b87ea6f1e0c785a1a60b0261218ae96d433/images/List%20of%20Columns.JPG">
+
+<img width="500" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/1b929b87ea6f1e0c785a1a60b0261218ae96d433/images/List%20of%20Columns.JPG">
 
 The dataset that I considered has three different types of data namely 
 - Continuous Data: This is the data that can be measured.
