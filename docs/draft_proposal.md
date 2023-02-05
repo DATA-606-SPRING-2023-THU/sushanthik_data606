@@ -32,6 +32,7 @@ For example, their are certain columns in the dataset like **"cholesterol"** whi
 For example, the column named **"chest pain type"** is the ordinal type because interms of chest pain type, their are 4 different types and each type has a specific categorical value assigned. Instead of having each chest pain type, this Ordinal data helps us to represent that specific chest pain type.
 - Binary Data: This is the data that holds the value of True or False. 
 For example, we do have a specific condition, if that condition is passed then the binary value of that row will be 1 else it will be 0.
+ 
  **Note:** This dataset doesn't have any geographical or time frame related data.
 
 #### Unit of analysis
