@@ -1,7 +1,6 @@
-# Capstone Data Science 606 
-##### Proposal By :
-##### Sushanthik Reddy Poreddy
-### Heart Disease Prediction Using Machine Learning
+# Capstone Project Data Science 606 
+##### Proposal By : **Sushanthik Reddy Poreddy**
+### **Heart Disease Prediction Using Machine Learning**
 
 #### Issue of interest
 
