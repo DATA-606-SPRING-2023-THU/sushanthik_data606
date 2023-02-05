@@ -36,10 +36,19 @@ For example, we do have a specific condition, if that condition is passed then t
 
 #### Unit of analysis
 
+
 #### What variables/measures do you plan to use in your analysis (variables should be tied to the questions in #3)?
 My variables would be heart rate, gender, age and target which helps me to develop the model that has the ability to predict the outcome whether the person is affected with heart diseases or not. I do have a column named "target" in my dataset 
 
 #### What kinds of techniques/models do you plan to use (for example, clustering, NLP, ARIMA, etc.)?
+- Perform Data cleaning and find out whether the dataset has any null values
+- Random Forest 
+- Decision Tree
+- Naive Bayes
+- Will try to find the Feature Importance on the dataset, as this helps me to figure out the most important feature that is required to figure out the chance of heart disease.
 
 #### How do you plan to develop/apply ML and how you evaluate/compare the performance of the models?
+Once after running the above mentioned classifier models, will choose the best model based on the f1 score and run the model on the test data and figure out the f1 score and generate the classification reports.
+
 #### What outcomes do you intend to achieve (better understanding of problems, tools to help solve problems, predictive analytics with practicle applications, etc)?
+Will generate the visualization on the dataset for the above mentioned features with the help of data visualization techniques in python. 
