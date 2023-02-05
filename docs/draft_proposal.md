@@ -14,7 +14,7 @@
 Link for the dataset : [Dataset](https://ieee-dataport.org/open-access/heart-disease-dataset-comprehensive)
 
 The last update on the dataset was made on November 6th, 2020.
-<img width="900" height="100" alt="image" src="https://ieee-dataport.org/sites/default/files/heart.PNG">
+<img width="900" height="500" alt="image" src="https://ieee-dataport.org/sites/default/files/heart.PNG">
 
 #### Unit of analysis
 
