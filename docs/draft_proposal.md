@@ -36,7 +36,7 @@ For example, we do have a specific condition, if that condition is passed then t
  **Note:** This dataset doesn't have any geographical or time frame related data.
 
 #### Unit of analysis
-
+My unit of analysis would be target column which defines the heart health status of the person. For example, I will try to analyse the maximum heart rate that is being recorded among different ages of people and also try to figure out the whether maximum heart rate has that impact on the chances of heart disease.
 
 #### What variables/measures do you plan to use in your analysis (variables should be tied to the questions in #3)?
 My variables would be heart rate, gender, age and target which helps me to develop the model that has the ability to predict the outcome whether the person is affected with heart diseases or not. I do have a column named "target" in my dataset 
