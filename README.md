@@ -4,7 +4,7 @@
 ### Data 606 Capstone project
 ###### Sushanthik Reddy Poreddy
 
-[Project link Youtube](https://youtu.be/vc3as84qhiM)
+[Project link Youtube]()
 
 [Presentation link](https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/docs/Heart%20Disease%20Prediction.pptx)
 
@@ -90,9 +90,12 @@ Once after find the best model, I had used that model to find the most important
 ### **Streamlit Results**
 Find the best model helped me to predect the target variable and I had visualized the results with the help of the streamlit/ Streamlit is used to generate the user interface and this accepts all other feature values as the inputs and generates the target variable as the output. 
 The screen for predecting heart disease looks like below:
-<img width="507" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/streamlit.png">
+<img width="507" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/Streamlit%20UI.JPG">
 
 ### **Conclusion**
+Random Forest Classifier model best predicts the chance of heart diseases. It has the accuracy score of 0.90 on train data and 0.95 on test data. Which means this model predects 90% accurately in terms of heart disease when compared to the other machine learning classification models.
+
+The slope of the peak exercise(ST_Slope) segment feature is figured as the most important feature in the dataset when compared to the other features of the dataset with the value of 0.175 and the feature fasting blood pressure is identified as the least important feature since it has the least important value.
 
 ### **References**
 
@@ -103,3 +106,5 @@ The screen for predecting heart disease looks like below:
 [Classification models](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 [Streamlit](https://streamlit.io/)
+
+[Heart disease prediction using supervised machine learning algorithms: Performance analysis and comparison](https://pubmed.ncbi.nlm.nih.gov/34315030/)
