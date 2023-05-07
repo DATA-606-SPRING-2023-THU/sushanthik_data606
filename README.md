@@ -13,7 +13,6 @@
 * [Dataset Overview](#dataset-overview)
 * [Data Cleaning & preparation](#data-cleaning--preparation)
 * [EDA](#eda)
-* [Data Processing & Encoding](#data-processing--encoding)
 * [Machine Learning Models](#machine-learning-models)
 * [Conclusion](#conclusion)
 * [References](#references)
@@ -51,7 +50,7 @@ The first step in the project is data cleaning. There I checked for the null val
 
 ### **EDA**
 
-After the data cleaning process I have started doing EDA on all the available features of the dataset and pulled out the graphs for the columns. I have carried out the EDA process on the dataset. This EDA process was carried in [Google colab notebook](https://github.com/HariChandana1116/harichandana_data606/blob/main/EDA%20and%20Machine%20Learning/EDA%20%26%20ML.ipynb) and they can be seen in the repository.
+After the data cleaning process I have started doing EDA on all the available features of the dataset and pulled out the graphs for the columns. I have carried out the EDA process on the dataset. This EDA process was carried in [Google colab notebook](https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/src/final_project_code_part1.ipynb) and they can be seen in the repository.
 
 <img width="809" alt="image" src="https://user-images.githubusercontent.com/77841272/185717343-1e652df9-3586-4ff9-9662-f05c20da3409.png">
 <img width="813" alt="image" src="https://user-images.githubusercontent.com/77841272/185717398-ab84f425-dc69-4ddb-a3dd-d9bc6ba18d02.png">
@@ -59,20 +58,6 @@ Then after correlation matrix shows all the posible pairs of values correlated i
 <img width="507" alt="image" src="https://user-images.githubusercontent.com/77841272/185717839-150ca134-f9d5-434f-8979-29443e9aeff8.png">
 we have also plotted scatter plot for the relationship between obesity and high blood pressure.
 <img width="323" alt="image" src="https://user-images.githubusercontent.com/77841272/185717688-6b630665-5be1-42d3-a587-6154ef83f083.png">
-
-### **Data Processing & Encoding**
-
-After EDA, the we had to further process our dataset in order to make it ready for our machine learning analysis. We have found a significant imbalance in our dataset. So we have performed resampling to balace our data as using imbalance data for machine learning analysis can produce biased results. Below is the image that shows the data before and after resampling.
-<img width="571" alt="image" src="https://user-images.githubusercontent.com/77841272/185727245-6756ded7-260c-499e-a45f-254160f4737e.png">
-
-After resampling we have started encoding all the categorical values using OneHotEncoder. As part of encoding we have encoded the Target variable values as the following
-* Health Outcomes = 1
-* Unhealthy Behavior =2
-* Prevention = 3
-The below is the final dataset that we have used for machine learning models.
-<img width="542" alt="image" src="https://user-images.githubusercontent.com/77841272/185726822-6efac626-c9ee-49c5-b782-89ba3a60aec9.png">
-We have split this final dataset into training and test dataset with 70% of the data in training and the remaininng 30% for testing.
-
 
 ### **Machine Learning Models**
 
