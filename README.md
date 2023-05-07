@@ -52,41 +52,54 @@ The first step in the project is data cleaning. There I checked for the null val
 
 After the data cleaning process I have started doing EDA on all the available features of the dataset and pulled out the graphs for the columns. I have carried out the EDA process on the dataset. This EDA process was carried in [Google colab notebook](https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/src/final_project_code_part1.ipynb) and they can be seen in the repository.
 
-<img width="809" alt="image" src="https://user-images.githubusercontent.com/77841272/185717343-1e652df9-3586-4ff9-9662-f05c20da3409.png">
-<img width="813" alt="image" src="https://user-images.githubusercontent.com/77841272/185717398-ab84f425-dc69-4ddb-a3dd-d9bc6ba18d02.png">
+<img width="809" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/avg_heart_rate_healthy_unhealthy_heart.png">
+<img width="809" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/avg_heart_rate_male_female.png">
+<img width="809" height="300" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/bloodpressure_male_female.png">
+<img width="809" height="300" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/chest_pain_types.png">
+<img width="809" height="300" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/chol_male_female.png">
+<img width="809" height="300" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/exercise_healthy_unhealthy.png">
+<img width="809" height="300" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/healthy_unhealthy_heart.png">
+<img width="809" height="300" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/heart_male_female.png">
+<img width="809" height="300" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/restingecg_healthy_unhealthy.png">
+
 Then after correlation matrix shows all the posible pairs of values correlated in the table and below is the visualization of it.
-<img width="507" alt="image" src="https://user-images.githubusercontent.com/77841272/185717839-150ca134-f9d5-434f-8979-29443e9aeff8.png">
-we have also plotted scatter plot for the relationship between obesity and high blood pressure.
-<img width="323" alt="image" src="https://user-images.githubusercontent.com/77841272/185717688-6b630665-5be1-42d3-a587-6154ef83f083.png">
+<img width="507" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/corelation.png">
 
 ### **Machine Learning Models**
 
-We have decided to perform three regression models and two classifier models on our data.
-1. Linear Regression
-2. Ridge Regression
-3. Lasso Regression
-4. Decision Tree Classifier
-5. Random Forest CLassifier
+I have decided to perform three classifier models on the data.
+1. Naive Bayes Classifier
+2. Decision Tree Classifier
+3. Random Forest CLassifier
 
-The three linear regression models Linear, Lasso and Ridge can be found in the [Regression](https://github.com/HariChandana1116/harichandana_data606/blob/main/EDA%20and%20Machine%20Learning/Regression_models.ipynb) notebook. Ridge and Lasso regression models fall into the same family of Linear regression model. But the difference is the model is penalized for its choice of the weights. In Lasso regression the absolute values of weight will be reduced, and many will tend to be zeros. Therefore it will avoid overfitting which generally happen in linear regression model. Similar to Lasso in Ridge regression the model is penalized for the sum of squared value of the weights.
+The three classification models Naive Bayes, Decision Tree and Random Forest can be found in the [Machine Learning Models](https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/src/final_project_code_part1.ipynb) notebook. 
 
-Decision tree is a supervised machine learning algorithm that can be used for both classification and regression. And as the name suggests Random Forest is a tree-based machine learning algorithm that uses the power of multiple decision trees for making decisions.
+Decision tree is a supervised machine learning algorithm. And as the name suggests Random Forest is a tree-based machine learning algorithm that uses the power of multiple decision trees for making decisions.
 
+It is obeserved that different classifier models have different accuracy scores and the based on the best accuracy score I can choose the best model that helps me in predecting the chance of heart disease. 
+The train f1 score for all the above mentioned classifier models is as follows:
+<img width="507" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/train_accuracy.png">
+
+Based on the above results the Random Forest Classifier has the highest accuracy score and it is used to run on the test data. The results of the test and train data are as follows:
+<img width="507" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/train_test_accuracy.png">
+
+### **Most Important Feature**
+Once after find the best model, I had used that model to find the most important features that has the highest weightage in predecting the heart health status among the list of multiple features from my dataset. The results for the most important features is as follows:
+<img width="507" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/most_important_feature.png">
+
+### **Streamlit Results**
+Find the best model helped me to predect the target variable and I had visualized the results with the help of the streamlit/ Streamlit is used to generate the user interface and this accepts all other feature values as the inputs and generates the target variable as the output. 
+The screen for predecting heart disease looks like below:
+<img width="507" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/streamlit.png">
 
 ### **Conclusion**
-The analysis has given a good picture regarding the measures that are leading to various health outcomes along with various measures people are taking for preventing certain health outcomes. We have occured to the following conclusion that there are less number of people who are into prevention measures. Also there are more people who are depending on medications.
-From our machine learning models performance scores, we have found out that the classification models i.e. Decision Tree classifier and Random Forest classifier are better suitable for our dataset than the three regression models. 
-
-<img width="457" alt="image" src="https://user-images.githubusercontent.com/77841272/185714625-0319845d-e80a-46bd-a388-994df6a25729.png">
-
-This analysis has further scope where each measure can be analysed seperately for specific geographic location. Such analysis will be useful for government agencies and digital health care application developers in designing new initiatives and business ventures in respect to each specific geographical location.
 
 ### **References**
 
-[GitHub link](https://github.com/HariChandana1116/harichandana_data606)
+[GitHub link](https://github.com/SushanthikPoreddy/sushanthik_data606)
 
-[500 Cities- CDC](https://chronicdata.cdc.gov/500-Cities-Places/500-Cities-Local-Data-for-Better-Health-2018-relea/rja3-32tc)
+[Heart Disease Predection using Machine Learning](https://ieee-dataport.org/open-access/heart-disease-dataset-comprehensive)
 
-[Regression models](https://towardsdatascience.com/whats-the-difference-between-linear-regression-lasso-ridge-and-elasticnet-8f997c60cf29)
+[Classification models](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
-[Classification models](https://www.analyticsvidhya.com/blog/2020/05/decision-tree-vs-random-forest-algorithm/)
+[Streamlit](https://streamlit.io/)
