@@ -1,4 +1,4 @@
-<img width="560" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/heart-disease-image.png">
+<img width="950" height="370" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/heart-disease-image.png">
 
 # **Heart Disease Predection Using Machine Learning**
 ### Data 606 Capstone project
@@ -24,8 +24,7 @@ In the present world we do see people of different ages keep on running behind t
 Heart is the major part of the body that helps the human body to pump the blood and also for the functionality of the human body. It's working is very important and the halt in it's functionaliy means nothing but the physical exsistence of the human body came to an end. In most of the cases the person doesn't even know that he/she have certain heart disease and the lack of identification risks their life. It is very important to identify such case and handle them accordingly. It is not like only certain age of people will have such heart diseases and the younger generation is out risk. The food that we take and the change in the life style was the main reason for having very less immunity and that also increases the risk of having heart diseases.
 
 #### **Dataset Overview**
-The source for this data is CDC(Centers for Disease Control and Prevention)., Division of Population Health, Epidemiology and Surveillance Branch and this project of making this dataset was funded by the Robert Wood Johnson Foundation (RWJF) in conjunction with the CDC Foundation. Data sources used to generate these measures include Behavioral Risk Factor Surveillance System (BRFSS) data (2016, 2015), Census Bureau 2010 census population data, and American Community Survey (ACS)
-2012-2016, 2011-2015 estimates.
+
 
 Link for the dataset : [Dataset](https://chronicdata.cdc.gov/500-Cities-Places/500-Cities-Local-Data-for-Better-Health-2018-relea/rja3-32tc)
 
@@ -39,13 +38,11 @@ Dataset has information from 500 cities from the US which helps in bringing out 
 
 ### **Data Cleaning & preparation**
 
-The first step in our project in data cleaning. There were null values and duplicate values in few columns of the dataset. We have checked in which columns were the null values existing. There were null values in the columns regarding data value footnotes and other columns which has least importance forour analysis. There fore we have dropped those columns from our dataset thus handling null values in our dataset too. 
-Then we have found that the duplicate values are due to census tract data in our dataset. Therefore we have found more than one value for a city due to city FIPS number.
-Also we have used Sweetviz to see the health of the dataset. And these Sweetviz output files can be seen [Sweetviz](https://github.com/HariChandana1116/harichandana_data606/tree/main/Sweetviz) folder in the repository.
+The first step in the project is data cleaning. There I checked for the null values and duplicate values in the columns of the dataset. There are no null values and the duplicate records in the dataset.
 
 ### **EDA**
 
-After the data cleaning process we have started our EDA by grouping the target feature "CategoryID" and pulled out the graphs for rest of the columns. We have carried out the EDA process on New York, California data. This EDA process was carried both in [Google colab notebook](https://github.com/HariChandana1116/harichandana_data606/blob/main/EDA%20and%20Machine%20Learning/EDA%20%26%20ML.ipynb) as well as in [Databricks PySpark](https://github.com/HariChandana1116/harichandana_data606/blob/main/EDA%20and%20Machine%20Learning/606-EDA%20Databricks%20(1).ipynb) and they can be seen in the repository.
+After the data cleaning process I have started doing EDA on all the available features of the dataset and pulled out the graphs for the columns. I have carried out the EDA process on the dataset. This EDA process was carried in [Google colab notebook](https://github.com/HariChandana1116/harichandana_data606/blob/main/EDA%20and%20Machine%20Learning/EDA%20%26%20ML.ipynb) and they can be seen in the repository.
 
 <img width="809" alt="image" src="https://user-images.githubusercontent.com/77841272/185717343-1e652df9-3586-4ff9-9662-f05c20da3409.png">
 <img width="813" alt="image" src="https://user-images.githubusercontent.com/77841272/185717398-ab84f425-dc69-4ddb-a3dd-d9bc6ba18d02.png">
