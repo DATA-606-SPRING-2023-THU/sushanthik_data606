@@ -24,17 +24,26 @@ In the present world we do see people of different ages keep on running behind t
 Heart is the major part of the body that helps the human body to pump the blood and also for the functionality of the human body. It's working is very important and the halt in it's functionaliy means nothing but the physical exsistence of the human body came to an end. In most of the cases the person doesn't even know that he/she have certain heart disease and the lack of identification risks their life. It is very important to identify such case and handle them accordingly. It is not like only certain age of people will have such heart diseases and the younger generation is out risk. The food that we take and the change in the life style was the main reason for having very less immunity and that also increases the risk of having heart diseases.
 
 #### **Dataset Overview**
+The dataset for this project was taken for IEEE site which stands for "Institute of Electrical and Electronics Engineers". This dataset is a combination of 5 different datasets namely Cleveland, Hungarian, Switzerland, Long Beach VA, and Statlog (Heart) Data Sets. This datase was submitted by "Manu Siddhartha" to IEEE and the formate of this dataset is CSV.
 
+It is an opensource data and it can be accessed though this link : [Dataset](https://ieee-dataport.org/open-access/heart-disease-dataset-comprehensive)
 
-Link for the dataset : [Dataset](https://chronicdata.cdc.gov/500-Cities-Places/500-Cities-Local-Data-for-Better-Health-2018-relea/rja3-32tc)
+This dataset was lastly update on November 6th, 2020.
 
-Size of dataset is 224.276 MB.
+Size of dataset is 38.76 KB.
 
-The dataset has 810k rows and 24 columns.
+The dataset that I considered has 13 different columns with the number of observations 1190. 
+Below are the list of columns that I have in my dataset with the type of the data:
 
-Dataset has information from 500 cities from the US which helps in bringing out data for better health.
+<img width="500" height="350" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/1b929b87ea6f1e0c785a1a60b0261218ae96d433/images/List%20of%20Columns.JPG">
 
-<img width="403" alt="image" src="https://user-images.githubusercontent.com/77841272/172907884-3216d0f2-f473-4fc8-9197-47b8d3231834.png">
+The dataset that I considered has three different types of data namely 
+- Continuous Data: This is the data that can be measured.
+For example, their are certain columns in the dataset like **"cholesterol"** which can be measured and recorded.
+- Ordinal Data: This is the categorical data that has a specific order and that may be from 0,1,2, and so on.
+For example, the column named **"chest pain type"** is the ordinal type because interms of chest pain type, their are 4 different types and each type has a specific categorical value assigned. Instead of having each chest pain type, this Ordinal data helps us to represent that specific chest pain type.
+- Binary Data: This is the data that holds the value of True or False. 
+For example, we do have a specific condition, if that condition is passed then the binary value of that row will be 1 else it will be 0.
 
 ### **Data Cleaning & preparation**
 
