@@ -91,6 +91,7 @@ Once after find the best model, I had used that model to find the most important
 Find the best model helped me to predect the target variable and I had visualized the results with the help of the streamlit. Streamlit is used to generate the user interface and this accepts all other feature values as the inputs and generates the target variable as the output and this can be found in [Streamlit Code File](https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/src/final_project_code_part2.py). 
 The screen for predecting heart disease looks like below:
 
+
 <img width="507" alt="image" src="https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/images/Streamlit%20UI.JPG">
 
 ### **Conclusion**
