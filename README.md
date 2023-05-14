@@ -4,7 +4,7 @@
 ### Data 606 Capstone project
 ###### Sushanthik Reddy Poreddy
 
-[Project link Youtube]()
+[Project link Youtube](https://youtu.be/UzEVYK3NFok)
 
 [Presentation link](https://github.com/SushanthikPoreddy/sushanthik_data606/blob/main/docs/Heart%20Disease%20Prediction.pptx)
 
